@@ -1,5 +1,5 @@
 import Head from "next/head";
-import MedicineCard from "../components/MedicineCard";
+import MedicineCard from "../components/MedicineCard"; // ✅ Correct Import
 import styles from "../styles/Medicines.module.css";
 
 // Dummy data
@@ -9,6 +9,8 @@ const medicines = [
 ];
 
 export default function Medicines() {
+  console.log("MedicineCard:", MedicineCard);  // ✅ Debugging line
+
   return (
     <div className={styles.container}>
       <Head>
