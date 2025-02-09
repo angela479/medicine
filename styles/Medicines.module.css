@@ -15,9 +15,4 @@
     width: 200px;
     text-align: center;
   }
-  .list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
+  
